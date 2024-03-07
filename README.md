@@ -2,6 +2,8 @@
 
 validate and transformer json data
 
+problem: receiving a set of data in JSON format and removing all empty fields ('') or those containing the special character (#)
+
 - install node dependencies `yarn`
 - run application in development mode with nodemon `yarn start`
 - execute tests `yarn test`
