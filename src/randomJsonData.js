@@ -1,6 +1,6 @@
 const generateRandomData = () => {
   const getRandomString = () => {
-    const strings = ['', '#', 'apple', 'banana', 'orange'];
+    const strings = ['', '#', '01', '00000000000', 'M'];
     return strings[Math.floor(Math.random() * strings.length)];
   };
 
@@ -14,7 +14,7 @@ const generateRandomData = () => {
 
   const generateRandomObject = () => {
     const object = {};
-    const keys = ['name', 'age', 'gender', 'address', 'city'];
+    const keys = ['name', 'rooms', 'age', 'gender', 'documents'];
     keys.forEach(key => {
       const randomValue = Math.random();
       if (randomValue < 0.2) {
@@ -32,15 +32,15 @@ const generateRandomData = () => {
 
     // add nested objects
     if (Math.random() < 0.5) {
-      object['nestedObject'] = generateRandomObject();
+      object['companies'] = generateRandomObject();
     }
 
     // add arrays
     if (Math.random() < 0.5) {
       const arrayLength = getRandomNumber(1, 5);
-      object['nestedArray'] = [];
+      object['rooms'] = [];
       for (let i = 0; i < arrayLength; i++) {
-        object['nestedArray'].push(getRandomString());
+        object['rooms'].push(getRandomString());
       }
     }
 
