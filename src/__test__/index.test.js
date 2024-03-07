@@ -1,4 +1,4 @@
-const handlerInputJson = require('./index')
+const handlerInputJson = require('../index')
 
 describe('handlerInputJson', () => {
   test('should throw an error when provided with invalid input', () => {
