@@ -1,0 +1,17 @@
+{
+  "name": "json-handler",
+  "version": "1.0.0",
+  "description": "a handler input json data - chanlenge fineasy",
+  "repository": "https://github.com/leonardo-anjos/json-handler",
+  "author": "Leonardo Anjos",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
