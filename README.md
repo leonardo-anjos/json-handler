@@ -8,7 +8,7 @@ validate and transformer json data
 
 obs: with each modification or `ctrl + s` in the `index.js` file a new random data is generated and return the transformed data
 
-![alt text](results.png)
+![alt text](image.png)
 
 ### examples
 ```
